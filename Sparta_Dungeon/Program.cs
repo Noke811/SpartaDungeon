@@ -50,7 +50,7 @@ namespace Sparta_Dungeon
                 Console.WriteLine(" 1. 전사");
                 Console.WriteLine(" 2. 도적\n");
 
-                Console.WriteLine(" 직업을 선택하세요 :");
+                Console.Write(" 직업을 선택하세요 :");
 
                 bool isSelected = false;
                 Job job = Job.warrior;
